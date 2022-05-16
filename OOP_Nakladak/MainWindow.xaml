@@ -1,0 +1,24 @@
+﻿<Window x:Class="OOP_Nakladak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_Nakladak"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Nakladak1" TextWrapping="Wrap" Margin="10,10,400,156"/>
+        <Button x:Name="Jet" Content="Jet" HorizontalAlignment="Left" Height="36" Margin="94,302,0,0" VerticalAlignment="Top" Width="79" Click="Jet_Click"/>
+        <Button x:Name="Nacepovat" Content="Načepovat" HorizontalAlignment="Left" Height="36" Margin="178,302,0,0" VerticalAlignment="Top" Width="79" Click="Nacepovat_Click"/>
+        <Button x:Name="Vylozit" Content="Vyložit" HorizontalAlignment="Left" Height="36" Margin="10,343,0,0" VerticalAlignment="Top" Width="79" Click="Vylozit_Click"/>
+        <Button x:Name="Nalozit2" Content="Naložit" HorizontalAlignment="Left" Height="36" Margin="545,302,0,0" VerticalAlignment="Top" Width="79" Click="Nalozit2_Click"/>
+        <Button x:Name="Jet2" Content="Jet" HorizontalAlignment="Left" Height="36" Margin="629,302,0,0" VerticalAlignment="Top" Width="79" Click="Jet2_Click"/>
+        <Button x:Name="Nacepovat2" Content="Načepovat" HorizontalAlignment="Left" Height="36" Margin="713,302,0,0" VerticalAlignment="Top" Width="79" Click="Nacepovat2_Click"/>
+        <Button x:Name="Vylozit2" Content="Vyložit" HorizontalAlignment="Left" Height="36" Margin="545,343,0,0" VerticalAlignment="Top" Width="79" Click="Vylozit2_Click"/>
+        <TextBlock x:Name="Nakladak2" TextWrapping="Wrap" Margin="400,10,8,156"/>
+        <TextBox x:Name="input1" HorizontalAlignment="Left" Height="36" Margin="94,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Height="36" Margin="629,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161"/>
+        <Button x:Name="Nalozit" Content="Naložit" HorizontalAlignment="Left" Height="36" Margin="10,302,0,0" VerticalAlignment="Top" Width="79" Click="Nalozit_Click"/>
+
+    </Grid>
+</Window>
